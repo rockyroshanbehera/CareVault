@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>CareVault — Family Health, Organized for Life</title>
+  <meta name="description" content="CareVault is a family-first healthcare management MVP for health records, AI summaries, hospital discovery, insurance planning and emergency access.">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div id="toast" class="toast"></div>
+
+  <div class="app-shell">
+    <aside class="sidebar">
+      <div class="brand">
+        <div class="brand-mark">✚</div>
+        <div>
+          <strong>CareVault</strong>
+          <span>Family Health OS</span>
+        </div>
+      </div>
+
+      <div class="demo-badge">● DEMO MODE</div>
+
+      <nav id="nav">
+        <button class="nav-item active" data-page="overview">⌂ <span>Overview</span></button>
+        <button class="nav-item" data-page="family">♧ <span>Family</span></button>
+        <button class="nav-item" data-page="vault">▣ <span>Health Vault</span></button>
+        <button class="nav-item" data-page="assistant">✦ <span>AI Assistant</span></button>
+        <button class="nav-item" data-page="hospitals">⌖ <span>Hospitals</span></button>
+        <button class="nav-item" data-page="doctors">♙ <span>Doctors</span></button>
+        <button class="nav-item" data-page="insurance">▤ <span>Insurance</span></button>
+        <button class="nav-item" data-page="pharmacies">⌕ <span>Pharmacies</span></button>
+        <button class="nav-item emergency-nav" data-page="emergency">⚠ <span>Emergency</span></button>
+      </nav>
+
+      <div class="sidebar-bottom">
+        <div class="privacy-card">
+          <div class="shield">✓</div>
+          <div>
+            <strong>Your data, your control</strong>
+            <p>This hackathon demo uses fictional data only.</p>
+          </div>
+        </div>
+        <button class="settings-btn" onclick="showToast('Settings are represented in the MVP demo.')">⚙ Settings</button>
+      </div>
+    </aside>
+
+    <main class="main">
+      <header class="topbar">
+        <div class="mobile-brand"><span class="brand-mark">✚</span><strong>CareVault</strong></div>
+        <div class="global-search">
+          <span>⌕</span>
+          <input id="globalSearch" placeholder="Search records, family members, hospitals..." />
+          <kbd>⌘ K</kbd>
+        </div>
+        <div class="top-actions">
+          <button class="icon-btn" onclick="showToast('No new alerts in demo mode.')">♢</button>
+          <div class="avatar">RR</div>
+        </div>
+      </header>
+
+      <section id="content" class="content"></section>
+    </main>
+  </div>
+
+  <div id="modal" class="modal hidden">
+    <div class="modal-backdrop" onclick="closeModal()"></div>
+    <div class="modal-card" id="modalCard"></div>
+  </div>
+
+<script src="app.js"></script>
+</body>
+</html>
