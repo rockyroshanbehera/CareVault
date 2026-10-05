@@ -4,7 +4,7 @@
 >
 ## 📸 Product Preview
 
-![CareVault Dashboard](screenshots/carevault-dashboard.png)
+![CareVault Dashboard](Screenshot 2026-10-05 195006.png)
 
 ## 🎥 Demo
 
