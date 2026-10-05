@@ -2,9 +2,13 @@
 
 > **"Your family's health, organized for life."**
 >
-> ## 🖥️ Product Preview
+## 📸 Product Preview
 
-![CareVault Dashboard](screenshots/dashboard.png)
+![CareVault Dashboard](screenshots/carevault-dashboard.png)
+
+## 🎥 Demo
+
+[▶️ Watch the CareVault Demo](https://drive.google.com/file/d/1QPb6w4vt3_HOgzfiqaxX2jsSWf_CTycB/view?usp=sharing)
 
 CareVault is a family-first healthcare management and navigation MVP designed for hackathons. It brings together family profiles, a lifelong medical vault, document summarization, an AI health assistant, doctor visit preparation, hospital/doctor/pharmacy discovery, insurance comparison, expense estimation, and a high-visibility emergency SOS mode into a unified workspace.
 
